@@ -106,7 +106,7 @@ public class WatchServiceExample {
     }
 
     public static void main(String[] args) throws IOException {
-        Path dir = Paths.get("C:/Users/pares/eclipse-workspace/Java-IO-Employee_Payroll/lib");
+        Path dir = Paths.get("C:/Users/pares/eclipse-workspace/Java-IO-Employee_    Payroll/lib");
         new WatchServiceExample(dir).processEvents();
     }
 
