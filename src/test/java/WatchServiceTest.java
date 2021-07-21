@@ -8,7 +8,7 @@ import org.junit.Test;
 public class WatchServiceTest {
     @Test
     public void givenDirectoryWhenWatchedListsAllTheActivites() throws IOException {
-        Path path = Paths.get("C:/Users/pares/eclipse-workspace/Java-IO-Employee_Payroll/lib");
+        Path path = Paths.get("C:/Users/iamat/eclipse-workspace/Employee-Payroll/lib");
         Files.list(path).filter(Files::isRegularFile).forEach(System.out::println);
         new WatchServiceExample(path);
     }
